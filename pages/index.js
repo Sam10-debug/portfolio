@@ -48,8 +48,8 @@ export default function Home() {
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
             <a href="https://twitter.com/Emor__Musk" className="" target="_blank" rel="noreferrer"  ><AiFillTwitterCircle /></a>
-            <a href="https://www.linkedin.com/in/samuel-emorinken-401b10203/" className="" target="_blank"><AiFillLinkedin /></a>
-            <a href="https://github.com/Sam10-debug" className="" target="_blank"><AiFillGithub /></a>
+            <a href="https://www.linkedin.com/in/samuel-emorinken-401b10203/" className="" target="_blank" rel="noreferrer"><AiFillLinkedin /></a>
+            <a href="https://github.com/Sam10-debug" className="" target="_blank" rel="noreferrer"><AiFillGithub /></a>
           </div>
           <div className="relative  rounded-full w-80 h-80 mt-20 mx-auto overflow-hidden ">
             <Image src={musk} className=" rounded-full w-80 h-80" layout='fill' objectFit='cover' alt='profile-picture' />
