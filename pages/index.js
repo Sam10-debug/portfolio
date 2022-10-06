@@ -48,7 +48,7 @@ export default function Home() {
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
             <a href="https://twitter.com/Emor__Musk" className="" target="_blank" rel="noreferrer"  ><AiFillTwitterCircle /></a>
-            <a href="https://www.linkedin.com/in/samuel-emorinken-401b10203/" className="" target="_blank" rel="noreferrer"><AiFillLinkedin /></a>
+            <a href="https://www.linkedin.com/in/samuel-emorinken-401b10203/" className="mx-8 md:mx-0" target="_blank" rel="noreferrer"><AiFillLinkedin /></a>
             <a href="https://github.com/Sam10-debug" className="" target="_blank" rel="noreferrer"><AiFillGithub /></a>
           </div>
           <div className="relative  rounded-full w-80 h-80 mt-20 mx-auto overflow-hidden ">
@@ -90,10 +90,10 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className=" basis-1/3 flex-1"><a href="https://ubiquitous-naiad-7e34c8.netlify.app"  target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={shopping} alt="shoping-cart" /></a></div>
-            <div className=" basis-1/3 flex-1"><a href="https://tenzies-game-react-app.vercel.app/"  target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={tenzies} alt="tenzies-game" /></a></div>
-            <div className=" basis-1/3 flex-1"><a href="https://sam10-debug.github.io/Tip-Calculator/" target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={tip_calculator} alt="tip-calculator" /></a></div>
-            <div className=" basis-1/3 flex-1"><a href="https://sam10-debug.github.io/barca-player-info-app/" target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={barca} alt="barca-players-app" /></a></div>
-            <div className=" basis-1/3 flex-1"><a href="https://sam10-debug.github.io/intro-main/" target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={intro} alt="intro-page" /></a></div>
+            <div className="my-4 md:my-0 basis-1/3 flex-1"><a href="https://tenzies-game-react-app.vercel.app/"  target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={tenzies} alt="tenzies-game" /></a></div>
+            <div className="my-4 md:my-0 basis-1/3 flex-1"><a href="https://sam10-debug.github.io/Tip-Calculator/" target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={tip_calculator} alt="tip-calculator" /></a></div>
+            <div className="my-4 md:my-0 basis-1/3 flex-1"><a href="https://sam10-debug.github.io/barca-player-info-app/" target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={barca} alt="barca-players-app" /></a></div>
+            <div className="my-4 md:my-0 basis-1/3 flex-1"><a href="https://sam10-debug.github.io/intro-main/" target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={intro} alt="intro-page" /></a></div>
             <div className=" basis-1/3 flex-1"><a href="https://sam10-debug.github.io/time-tracking-dashboard/" target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={time} alt="time-tracking-dashboard" /></a></div>
           </div>
         </section>
