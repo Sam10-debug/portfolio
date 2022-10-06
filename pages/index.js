@@ -43,7 +43,7 @@ export default function Home() {
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">EMOR MUSK</h2>
             <h3 className="text-2xl py-2 md:;text-3xl dark:text-white">Front End web developer </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-white md:text-xl max-w-xl mx-auto">
-              Front end web developer providing services for programming and needs. Join me down below let's get cracking
+              Front end web developer providing services for programming and needs. Join me down below let &apos; s get cracking
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
@@ -59,7 +59,7 @@ export default function Home() {
           <div className="dark:text-white">
             <h3 className="text-3xl text-center  py-1  mt-4">Services I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-              Since the beginning of my journey as a front end web developer, I have been able to bring lots of designs to life. I've done remote works for <span className="text-teal-500">agencies</span> consulted for <span className="text-teal-500">startups</span> and collaborated with talented people to create digital products for both business andd consumer use.
+              Since the beginning of my journey as a front end web developer, I have been able to bring lots of designs to life. I &apos; ve done remote works for <span className="text-teal-500">agencies</span> consulted for <span className="text-teal-500">startups</span> and collaborated with talented people to create digital products for both business andd consumer use.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">I offer a wide range of services including programming and teaching.</p>
           </div>
@@ -84,7 +84,7 @@ export default function Home() {
           <div className="dark:text-white">
             <h3 className="text-3xl py-1 text-center">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-              Since the beginning of my journey as a front end web developer, I have been able to bring lots of designs to life. I've done remote works for <span className="text-teal-500">agencies</span> consulted for <span className="text-teal-500">startups</span> and collaborated with talented people to create digital products for both business andd consumer use.
+              Since the beginning of my journey as a front end web developer, I have been able to bring lots of designs to life. I &apos; ve done remote works for <span className="text-teal-500">agencies</span> consulted for <span className="text-teal-500">startups</span> and collaborated with talented people to create digital products for both business andd consumer use.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">I offer a wide range of services including programming and teaching.</p>
           </div>
