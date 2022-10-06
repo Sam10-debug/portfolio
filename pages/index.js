@@ -36,7 +36,7 @@ export default function Home() {
               <li>
                 <BsFillMoonStarsFill onClick={SetDarkMode} className='cursor-pointer text-2xl dark:text-white'/>
               </li>
-              <li><a href="https://docs.google.com/document/d/1AcdX0IugDx1pAFi7LAFR_dXDJw3SoSDLlXwJI-mv79E/edit?usp=sharing" target="_blank" rel="noreferrer" className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8'>Resume</a></li>
+              <li><a href="../public/Emorinken_Samuel_resume.pdf" download target="_blank" rel="noreferrer" className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8'>Resume</a></li>
             </ul>
           </nav>
           <div className="text-center p-10">
