@@ -36,7 +36,7 @@ export default function Home() {
               <li>
                 <BsFillMoonStarsFill onClick={SetDarkMode} className='cursor-pointer text-2xl dark:text-white'/>
               </li>
-              <li><a href="https://docs.google.com/document/d/1AcdX0IugDx1pAFi7LAFR_dXDJw3SoSDLlXwJI-mv79E/edit?usp=sharing" target="_blank" className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8'>Resume</a></li>
+              <li><a href="https://docs.google.com/document/d/1AcdX0IugDx1pAFi7LAFR_dXDJw3SoSDLlXwJI-mv79E/edit?usp=sharing" target="_blank" rel="noreferrer" className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8'>Resume</a></li>
             </ul>
           </nav>
           <div className="text-center p-10">
@@ -47,7 +47,7 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
-            <a href="https://twitter.com/Emor__Musk" className="" target="_blank"><AiFillTwitterCircle /></a>
+            <a href="https://twitter.com/Emor__Musk" className="" target="_blank" rel="noreferrer"  rel="noreferrer" ><AiFillTwitterCircle /></a>
             <a href="https://www.linkedin.com/in/samuel-emorinken-401b10203/" className="" target="_blank"><AiFillLinkedin /></a>
             <a href="https://github.com/Sam10-debug" className="" target="_blank"><AiFillGithub /></a>
           </div>
@@ -89,12 +89,12 @@ export default function Home() {
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">I offer a wide range of services including programming and teaching.</p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className=" basis-1/3 flex-1"><a href="https://ubiquitous-naiad-7e34c8.netlify.app"  target="_blank"><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={shopping} /></a></div>
-            <div className=" basis-1/3 flex-1"><a href="https://tenzies-game-react-app.vercel.app/"  target="_blank"><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={tenzies} /></a></div>
-            <div className=" basis-1/3 flex-1"><a href="https://sam10-debug.github.io/Tip-Calculator/" target="_blank"><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={tip_calculator} /></a></div>
-            <div className=" basis-1/3 flex-1"><a href="https://sam10-debug.github.io/barca-player-info-app/" target="_blank"><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={barca} /></a></div>
-            <div className=" basis-1/3 flex-1"><a href="https://sam10-debug.github.io/intro-main/" target="_blank"><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={intro} /></a></div>
-            <div className=" basis-1/3 flex-1"><a href="https://sam10-debug.github.io/time-tracking-dashboard/" target="_blank"><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={time} /></a></div>
+            <div className=" basis-1/3 flex-1"><a href="https://ubiquitous-naiad-7e34c8.netlify.app"  target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={shopping} alt="shoping-cart" /></a></div>
+            <div className=" basis-1/3 flex-1"><a href="https://tenzies-game-react-app.vercel.app/"  target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={tenzies} alt="tenzies-game" /></a></div>
+            <div className=" basis-1/3 flex-1"><a href="https://sam10-debug.github.io/Tip-Calculator/" target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={tip_calculator} alt="tip-calculator" /></a></div>
+            <div className=" basis-1/3 flex-1"><a href="https://sam10-debug.github.io/barca-player-info-app/" target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={barca} alt="barca-players-app" /></a></div>
+            <div className=" basis-1/3 flex-1"><a href="https://sam10-debug.github.io/intro-main/" target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={intro} alt="intro-page" /></a></div>
+            <div className=" basis-1/3 flex-1"><a href="https://sam10-debug.github.io/time-tracking-dashboard/" target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={time} alt="time-tracking-dashboard" /></a></div>
           </div>
         </section>
       </main>
