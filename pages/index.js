@@ -47,12 +47,12 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
-            <a href="https://twitter.com/Emor__Musk" className="" target="_blank" rel="noreferrer"  rel="noreferrer" ><AiFillTwitterCircle /></a>
+            <a href="https://twitter.com/Emor__Musk" className="" target="_blank" rel="noreferrer"  ><AiFillTwitterCircle /></a>
             <a href="https://www.linkedin.com/in/samuel-emorinken-401b10203/" className="" target="_blank"><AiFillLinkedin /></a>
             <a href="https://github.com/Sam10-debug" className="" target="_blank"><AiFillGithub /></a>
           </div>
           <div className="relative  rounded-full w-80 h-80 mt-20 mx-auto overflow-hidden ">
-            <Image src={musk} className=" rounded-full w-80 h-80" layout='fill' objectFit='cover' />
+            <Image src={musk} className=" rounded-full w-80 h-80" layout='fill' objectFit='cover' alt='profile-picture' />
           </div>  
         </section>
         <section className="">
@@ -66,7 +66,7 @@ export default function Home() {
           <div className="lg:flex gap-10 ">
             
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white md:mx-auto">
-              <Image src={code} height={100} width={100} />
+              <Image src={code} height={100} width={100} alt="code-img" />
               <h3 className="pb-2 text-lg font-medium pt-8 ">Front End Web Development</h3>
               <p className="py-2">Implementing elegant and optimized front end web designs suited for production</p>
               <h4 className=" text-teal-600 py-4 ">Front end  tools i use</h4>
