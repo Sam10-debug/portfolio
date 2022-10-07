@@ -88,7 +88,7 @@ export default function Home() {
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">I offer a wide range of services including programming and teaching.</p>
           </div>
-          <h2 className="text-gray-900 text-3xl text-center my-4">Check out some of my Projects below</h2>
+          <h2 className="text-gray-900 text-3xl text-center my-4 dark:text-white" >Check out some of my Projects below</h2>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className=" basis-1/3 flex-1"><h1 className="text-center text-gray-700 mb-4 text-2xl"><a href="https://splendid-sfogliatella-8b42ab.netlify.app/"  target="_blank" rel="noreferrer" >Shopping Cart App</a></h1><a href="https://splendid-sfogliatella-8b42ab.netlify.app/"  target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={shopping} alt="shoping-cart" /></a></div>
             <div className="my-4 md:my-0 basis-1/3 flex-1"><h1 className="text-center text-gray-700 mb-4 text-2xl"><a href="https://tenzies-game-react-app.vercel.app/"  target="_blank" rel="noreferrer" >Tenzies Game App</a></h1><a href="https://tenzies-game-react-app.vercel.app/"  target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={tenzies} alt="tenzies-game" /></a></div>
