@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+
 import {BsFillMoonStarsFill} from 'react-icons/bs'
 import {AiFillTwitterCircle,AiFillLinkedin,AiFillGithub} from 'react-icons/ai'
 import musk from '../public/images/IMG-3326 (1).JPG'
@@ -46,11 +46,7 @@ export default function Home() {
               Front end web developer providing services for programming and needs. Join me down below let &apos; s get cracking
             </p>
           </div>
-          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
-            <a href="https://twitter.com/Emor__Musk" className="" target="_blank" rel="noreferrer"  ><AiFillTwitterCircle /></a>
-            <a href="https://www.linkedin.com/in/samuel-emorinken-401b10203/" className="mx-8 md:mx-0" target="_blank" rel="noreferrer"><AiFillLinkedin /></a>
-            <a href="https://github.com/Sam10-debug" className="" target="_blank" rel="noreferrer"><AiFillGithub /></a>
-          </div>
+          
           <div className="relative  rounded-full w-80 h-80 mt-20 mx-auto overflow-hidden ">
             <Image src={musk} className=" rounded-full w-80 h-80" layout='fill' objectFit='cover' alt='profile-picture' />
           </div>  
@@ -98,6 +94,23 @@ export default function Home() {
             <div className=" basis-1/3 flex-1"><h1 className="text-center dark:text-white text-gray-700 mb-4 text-2xl"><a href="https://sam10-debug.github.io/time-tracking-dashboard/"  target="_blank" rel="noreferrer" >Time Tracking Dashboard</a></h1><a href="https://sam10-debug.github.io/time-tracking-dashboard/" target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={time} alt="time-tracking-dashboard" /></a></div>
           </div>
         </section>
+        <footer className="footer">
+          <div className="flex justify-between">
+            <div className="">
+              <h5 className="text-gray-600 dark:text-white">CALL</h5>
+              <h6 className="text-gray-600 dark:text-white">+2347063503671</h6>
+            </div>
+            <div className="">
+              <h5 className="text-gray-600 dark:text-white">EMAIL</h5>
+              <h6 className="text-gray-600 dark:text-white">emorinkensam@gmail.com</h6>
+            </div>
+          </div>
+          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
+            <a href="https://twitter.com/Emor__Musk" className="" target="_blank" rel="noreferrer"  ><AiFillTwitterCircle /></a>
+            <a href="https://www.linkedin.com/in/samuel-emorinken-401b10203/" className="mx-8 md:mx-0" target="_blank" rel="noreferrer"><AiFillLinkedin /></a>
+            <a href="https://github.com/Sam10-debug" className="" target="_blank" rel="noreferrer"><AiFillGithub /></a>
+          </div>
+        </footer>
       </main>
     </div>
   )
