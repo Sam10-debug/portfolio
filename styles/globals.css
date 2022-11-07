@@ -10,3 +10,16 @@ body{
 	border-top: 1px solid gray;
 	padding: 1rem 0 0 6px;
 }
+input{
+	border: 1px solid gray;
+	height: 50px;
+	border-radius: 5px;
+	font-size: 1.5rem;
+}
+button{
+	border: 1px solid gray;
+	height: 50px;
+	margin-block: 10px;
+	padding-inline: 7px;
+	border-radius: 6px;
+}

@@ -11,7 +11,9 @@ import intro from '../public/images/intro.jpg'
 import time from '../public/images/time.jpg'
 import tenzies from '../public/images/Screenshot (13).png'
 import shopping from '../public/images/active-states-basket-filled.jpg'
+import musica from "../public/images/Screenshot (23).png"
 import {useState} from 'react'
+import Form from '../components/Form'
 
 export default function Home() {
   const [darkMode,setDarkMode] = useState(false)
@@ -86,21 +88,22 @@ export default function Home() {
           </div>
           <h2 className="text-gray-900 text-3xl text-center my-4 dark:text-white" >Check out some of my Projects below</h2>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className=" basis-1/3 flex-1"><h1 className="text-center dark:text-white text-gray-700 mb-4 text-2xl"><a href="https://splendid-sfogliatella-8b42ab.netlify.app/"  target="_blank" rel="noreferrer" >Shopping Cart App</a></h1><a href="https://splendid-sfogliatella-8b42ab.netlify.app/"  target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={shopping} alt="shoping-cart" /></a></div>
+            <div className=" basis-1/3 flex-1"><h1 className="text-center dark:text-white text-gray-700 mb-4 text-2xl"><a href=""  target="_blank" rel="noreferrer" >Musica App</a></h1><a href="https://musica-app-two.vercel.app/"  target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={musica} alt="musica-image" /></a></div>
             <div className="my-4 md:my-0 basis-1/3 flex-1"><h1 className="text-center dark:text-white text-gray-700 mb-4 text-2xl"><a href="https://tenzies-game-react-app.vercel.app/"  target="_blank" rel="noreferrer" >Tenzies Game App</a></h1><a href="https://tenzies-game-react-app.vercel.app/"  target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={tenzies} alt="tenzies-game" /></a></div>
             <div className="my-4 md:my-0 basis-1/3 flex-1"><h1 className="text-center dark:text-white text-gray-700 mb-4 text-2xl"><a href="https://eclectic-sorbet-ef1f3a.netlify.app"  target="_blank" rel="noreferrer" >Tip calculator</a></h1><a href="https://eclectic-sorbet-ef1f3a.netlify.app" target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={tip_calculator} alt="tip-calculator" /></a></div>
             <div className="my-4 md:my-0 basis-1/3 flex-1"><h1 className="text-center dark:text-white text-gray-700 mb-4 text-2xl"><a href="https://barca-players-app-2-0.vercel.app/"  target="_blank" rel="noreferrer" >Barca Players Info App</a></h1><a href="https://barca-players-app-2-0.vercel.app/" target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={barca} alt="barca-players-app" /></a></div>
             <div className="my-4 md:my-0 basis-1/3 flex-1"><h1 className="text-center dark:text-white text-gray-700 mb-4 text-2xl"><a href="https://sam10-debug.github.io/intro-main/"  target="_blank" rel="noreferrer" >Intro section Landing Page</a></h1><a href="https://sam10-debug.github.io/intro-main/" target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={intro} alt="intro-page" /></a></div>
-            <div className=" basis-1/3 flex-1"><h1 className="text-center dark:text-white text-gray-700 mb-4 text-2xl"><a href="https://sam10-debug.github.io/time-tracking-dashboard/"  target="_blank" rel="noreferrer" >Time Tracking Dashboard</a></h1><a href="https://sam10-debug.github.io/time-tracking-dashboard/" target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={time} alt="time-tracking-dashboard" /></a></div>
+            <div className=" basis-1/3 flex-1"><h1 className="text-center dark:text-white text-gray-700 mb-4 text-2xl"><a href="https://splendid-sfogliatella-8b42ab.netlify.app/"  target="_blank" rel="noreferrer" >Time Tracking Dashboard</a></h1><a href="https://splendid-sfogliatella-8b42ab.netlify.app/" target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={shopping} alt="shoping-cart" /></a></div>
           </div>
         </section>
+        {/* <Form /> */}
         <footer className="footer">
           <div className="flex justify-between">
-            <div className="">
-              <h5 className="text-gray-600 dark:text-white">CALL</h5>
+            <div className="text-[12px] md:text-[1rem]">
+              <h5 className="text-gray-600 dark:text-white ">CALL</h5>
               <h6 className="text-gray-600 dark:text-white">+2347063503671</h6>
             </div>
-            <div className="">
+            <div className="text-[12px] md:text-[1rem]">
               <h5 className="text-gray-600 dark:text-white">EMAIL</h5>
               <h6 className="text-gray-600 dark:text-white">emorinkensam@gmail.com</h6>
             </div>
