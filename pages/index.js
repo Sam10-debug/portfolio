@@ -12,6 +12,7 @@ import time from '../public/images/time.jpg'
 import tenzies from '../public/images/Screenshot (13).png'
 import shopping from '../public/images/active-states-basket-filled.jpg'
 import musica from "../public/images/Screenshot (23).png"
+import crappo from "../public/images/Screenshot (24).png"
 import {useState} from 'react'
 import Form from '../components/Form'
 
@@ -92,7 +93,7 @@ export default function Home() {
             <div className="my-4 md:my-0 basis-1/3 flex-1"><h1 className="text-center dark:text-white text-gray-700 mb-4 text-2xl"><a href="https://tenzies-game-react-app.vercel.app/"  target="_blank" rel="noreferrer" >Tenzies Game App</a></h1><a href="https://tenzies-game-react-app.vercel.app/"  target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={tenzies} alt="tenzies-game" /></a></div>
             <div className="my-4 md:my-0 basis-1/3 flex-1"><h1 className="text-center dark:text-white text-gray-700 mb-4 text-2xl"><a href="https://eclectic-sorbet-ef1f3a.netlify.app"  target="_blank" rel="noreferrer" >Tip calculator</a></h1><a href="https://eclectic-sorbet-ef1f3a.netlify.app" target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={tip_calculator} alt="tip-calculator" /></a></div>
             <div className="my-4 md:my-0 basis-1/3 flex-1"><h1 className="text-center dark:text-white text-gray-700 mb-4 text-2xl"><a href="https://barca-players-app-2-0.vercel.app/"  target="_blank" rel="noreferrer" >Barca Players Info App</a></h1><a href="https://barca-players-app-2-0.vercel.app/" target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={barca} alt="barca-players-app" /></a></div>
-            <div className="my-4 md:my-0 basis-1/3 flex-1"><h1 className="text-center dark:text-white text-gray-700 mb-4 text-2xl"><a href="https://sam10-debug.github.io/intro-main/"  target="_blank" rel="noreferrer" >Intro section Landing Page</a></h1><a href="https://sam10-debug.github.io/intro-main/" target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={intro} alt="intro-page" /></a></div>
+            <div className="my-4 md:my-0 basis-1/3 flex-1"><h1 className="text-center dark:text-white text-gray-700 mb-4 text-2xl"><a href="http://crappo-web-app.vercel.app/"  target="_blank" rel="noreferrer" >Crappo web Landing Page</a></h1><a href="http://crappo-web-app.vercel.app/" target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={crappo} alt="intro-page" /></a></div>
             <div className=" basis-1/3 flex-1"><h1 className="text-center dark:text-white text-gray-700 mb-4 text-2xl"><a href="https://splendid-sfogliatella-8b42ab.netlify.app/"  target="_blank" rel="noreferrer" >Time Tracking Dashboard</a></h1><a href="https://splendid-sfogliatella-8b42ab.netlify.app/" target="_blank" rel="noreferrer" ><Image className='rounded-lg object-cover' width={'100%'} height={'100%'} layout="responsive" src={shopping} alt="shoping-cart" /></a></div>
           </div>
         </section>
